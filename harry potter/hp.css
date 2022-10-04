@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'harry';
+  src: url(Fontes/HARRP___.TTF) format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face {
+  font-family: 'hogward';
+  src: url(Fontes/Abys-Regular.otf) format('opentype');
+  font-weight:normal;
+  font-style:normal;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+
+main{
+    background-color: white;
+    border-radius:15px ;
+    box-shadow:5px 5px 15px #144b5598 ;
+    width: 1200px;
+    padding: 10px;
+    margin: auto;
+ }
+
+ body{
+    background-image: linear-gradient(45deg, #363126bc, #72621dba,#5e5532ba );
+    background-attachment: fixed;
+    font-size: 20px;
+    font-family: fantasy;
+  }
+  h1{
+    font-family:'harry','Times New Roman', Times, serif ;
+    font-size: 4em;
+    font-weight: normal;
+    text-align:center ;
+    color: rgb(168, 128, 9);
+}
+h2{
+  font-family:'hogward','Times New Roman', Times, serif ;
+  font-size: 2em;
+  font-weight: normal;
+  text-align:justify ;
+  color: rgb(118, 11, 11);
+}
+  p{
+    font-family: cursive;
+    text-align: justify;
+    text-indent: 30px;
+  }
+  h3{
+    font-family: fantasy;
+    text-align: justify;
+    color: #4b040a;
+  }
+  li{
+    font-family: cursive;
+    text-align: justify;
+    color:#151314;
+  }

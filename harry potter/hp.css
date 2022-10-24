@@ -47,18 +47,26 @@ h2{
   text-align:justify ;
   color: rgb(118, 11, 11);
 }
-  p{
-    font-family: cursive;
-    text-align: justify;
-    text-indent: 30px;
-  }
+  
   h3{
     font-family: fantasy;
     text-align: justify;
     color: #4b040a;
   }
-  li{
+  p{
     font-family: cursive;
     text-align: justify;
-    color:#151314;
+    text-indent: 30px;
+  }
+  
+  .posicao{
+    text-align: center;
+  }
+
+  .destaque{
+    font-weight: bold;
+  }
+  .enfase{
+   font-style: italic;
+   font-weight: bold;
   }

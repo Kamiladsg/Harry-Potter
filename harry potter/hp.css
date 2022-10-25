@@ -58,6 +58,16 @@ h2{
     text-align: justify;
     text-indent: 30px;
   }
+
+  div{
+    display: inline-block;
+    text-align: center;
+    width: 300px; 
+    height: 300px; 
+  }
+  div:hover{
+    background-color: rgb(118, 11, 11);
+  }
   
   .posicao{
     text-align: center;
